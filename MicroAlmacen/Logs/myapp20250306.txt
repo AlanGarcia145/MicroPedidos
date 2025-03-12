@@ -1,0 +1,27 @@
+2025-03-06 18:59:40.450 -06:00 [INF] Now listening on: https://localhost:7086
+2025-03-06 18:59:40.538 -06:00 [INF] Now listening on: http://localhost:5248
+2025-03-06 18:59:40.636 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 18:59:40.637 -06:00 [INF] Hosting environment: Development
+2025-03-06 18:59:40.638 -06:00 [INF] Content root path: C:\Users\angel\source\repos\MicroAlmacen\MicroAlmacen
+2025-03-06 18:59:41.626 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/index.html - null null
+2025-03-06 18:59:41.890 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 18:59:41.891 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/_vs/browserLink - null null
+2025-03-06 18:59:41.901 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/index.html - 200 null text/html;charset=utf-8 287.6623ms
+2025-03-06 18:59:41.917 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 27.2877ms
+2025-03-06 18:59:42.334 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/_vs/browserLink - 200 null text/javascript; charset=UTF-8 442.5564ms
+2025-03-06 18:59:42.378 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/v1/swagger.json - null null
+2025-03-06 18:59:42.379 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/favicon-32x32.png - null null
+2025-03-06 18:59:42.415 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.5035ms
+2025-03-06 18:59:42.424 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-06 18:59:42.432 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/favicon-32x32.png - 200 628 image/png 52.0719ms
+2025-03-06 18:59:52.598 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7086/api/Almacen - null null
+2025-03-06 18:59:52.651 -06:00 [INF] Executing endpoint 'MicroAlmacen.Controllers.AlmacenController.GetAlmacenes (MicroAlmacen)'
+2025-03-06 18:59:52.730 -06:00 [INF] Route matched with {action = "GetAlmacenes", controller = "Almacen"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MicroAlmacen.Aplicacion.AlmacenDto]]] GetAlmacenes() on controller MicroAlmacen.Controllers.AlmacenController (MicroAlmacen).
+2025-03-06 18:59:55.890 -06:00 [INF] Executed DbCommand (280ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Codigo`, `a`.`Capacidad`, `a`.`Encargado`, `a`.`NombreAlmacen`, `a`.`Producto`, `a`.`TipoAlmacen`, `a`.`Ubicacion`
+FROM `Almacen` AS `a`
+2025-03-06 18:59:56.120 -06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MicroAlmacen.Aplicacion.AlmacenDto, MicroAlmacen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-06 18:59:56.147 -06:00 [INF] Executed action MicroAlmacen.Controllers.AlmacenController.GetAlmacenes (MicroAlmacen) in 3400.858ms
+2025-03-06 18:59:56.151 -06:00 [INF] Executed endpoint 'MicroAlmacen.Controllers.AlmacenController.GetAlmacenes (MicroAlmacen)'
+2025-03-06 18:59:56.158 -06:00 [INF] HTTP GET /api/Almacen responded 200 in 3536.3726 ms
+2025-03-06 18:59:56.172 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7086/api/Almacen - 200 null application/json; charset=utf-8 3574.5276ms

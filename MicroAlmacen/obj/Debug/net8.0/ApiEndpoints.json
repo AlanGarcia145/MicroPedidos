@@ -1,0 +1,182 @@
+[
+  {
+    "ContainingType": "MicroAlmacen.Controllers.AlmacenController",
+    "Method": "Crear",
+    "RelativePath": "api/Almacen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Codigo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreAlmacen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Capacidad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ubicacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoAlmacen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Producto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Encargado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MediatR.Unit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroAlmacen.Controllers.AlmacenController",
+    "Method": "GetAlmacenes",
+    "RelativePath": "api/Almacen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MicroAlmacen.Aplicacion.AlmacenDto, MicroAlmacen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroAlmacen.Controllers.AlmacenController",
+    "Method": "ActualizarAlmacen",
+    "RelativePath": "api/Almacen/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "data",
+        "Type": "MicroAlmacen.Aplicacion.Actualizar\u002BEjecuta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MediatR.Unit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroAlmacen.Controllers.AlmacenController",
+    "Method": "GetAlmacenUnico",
+    "RelativePath": "api/Almacen/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MicroAlmacen.Aplicacion.AlmacenDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroAlmacen.Controllers.AlmacenController",
+    "Method": "Eleminar",
+    "RelativePath": "api/Almacen/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroAlmacen.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MicroAlmacen.WeatherForecast, MicroAlmacen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

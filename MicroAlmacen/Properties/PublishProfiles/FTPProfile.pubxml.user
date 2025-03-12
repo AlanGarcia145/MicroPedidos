@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP5xCAOk9DUuiGb9qEnUj3AAAAAACAAAAAAAQZgAAAAEAACAAAADUUjJTHNNcH1Ky24sPPsqpx017y6auHdIMndPqM1gToAAAAAAOgAAAAAIAACAAAACpLmahSl7wsKmwNWdcYHdbYH25m2xHjUWinoPZDf258CAAAADh0YDIyHYtTrMEzAkVpU6AmuZfMMFnkcPbjE8bgRL5vkAAAACdTPZ1LsouegVRlcv+geld5lmFXbuuRCxTM9e2iSVQd9l2/0+1J2dCLqZDDCdaIFhBZPwTI7nEI9iYgXQakozH</EncryptedPassword>
+    <_PublishTargetUrl>ftp://AlmacenMicro.somee.com/www.AlmacenMicro.somee.com</_PublishTargetUrl>
+    <History>True|2025-03-12T04:02:22.6256880Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>02/27/2025 17:17:08</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/06/2025 18:59:25</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>02/14/2025 15:03:28</publishTime>
+    </File>
+    <File Include="BouncyCastle.Cryptography.dll">
+      <publishTime>04/21/2023 06:06:40</publishTime>
+    </File>
+    <File Include="FluentValidation.AspNetCore.dll">
+      <publishTime>03/29/2023 07:54:28</publishTime>
+    </File>
+    <File Include="FluentValidation.DependencyInjectionExtensions.dll">
+      <publishTime>11/16/2024 13:43:22</publishTime>
+    </File>
+    <File Include="FluentValidation.dll">
+      <publishTime>11/16/2024 13:43:24</publishTime>
+    </File>
+    <File Include="Google.Protobuf.dll">
+      <publishTime>11/15/2023 05:29:56</publishTime>
+    </File>
+    <File Include="K4os.Compression.LZ4.dll">
+      <publishTime>01/06/2023 11:16:12</publishTime>
+    </File>
+    <File Include="K4os.Compression.LZ4.Streams.dll">
+      <publishTime>01/06/2023 11:16:12</publishTime>
+    </File>
+    <File Include="K4os.Hash.xxHash.dll">
+      <publishTime>11/08/2022 12:08:14</publishTime>
+    </File>
+    <File Include="MediatR.Contracts.dll">
+      <publishTime>01/10/2022 08:06:26</publishTime>
+    </File>
+    <File Include="MediatR.dll">
+      <publishTime>09/30/2022 03:00:36</publishTime>
+    </File>
+    <File Include="MediatR.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>09/30/2022 03:42:50</publishTime>
+    </File>
+    <File Include="MicroAlmacen.deps.json">
+      <publishTime>03/11/2025 21:58:11</publishTime>
+    </File>
+    <File Include="MicroAlmacen.dll">
+      <publishTime>03/11/2025 21:57:57</publishTime>
+    </File>
+    <File Include="MicroAlmacen.exe">
+      <publishTime>03/11/2025 21:57:57</publishTime>
+    </File>
+    <File Include="MicroAlmacen.pdb">
+      <publishTime>03/11/2025 21:57:57</publishTime>
+    </File>
+    <File Include="MicroAlmacen.runtimeconfig.json">
+      <publishTime>03/11/2025 21:57:58</publishTime>
+    </File>
+    <File Include="MicroAlmacen.staticwebassets.endpoints.json">
+      <publishTime>03/11/2025 21:58:11</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/18/2024 04:48:24</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/18/2024 04:48:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/18/2024 04:49:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>10/28/2024 20:43:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>10/28/2024 20:43:20</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>10/28/2024 20:41:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>10/28/2024 20:42:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>10/28/2024 20:47:32</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Diagnostics.Abstractions.dll">
+      <publishTime>10/28/2024 20:48:22</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>10/28/2024 20:43:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>10/28/2024 20:49:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>10/28/2024 20:48:42</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>10/28/2024 20:49:32</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>10/28/2024 20:43:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/28/2024 20:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>03/06/2024 10:00:56</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 02:36:56</publishTime>
+    </File>
+    <File Include="MySql.Data.dll">
+      <publishTime>03/18/2024 01:35:52</publishTime>
+    </File>
+    <File Include="MySql.EntityFrameworkCore.dll">
+      <publishTime>03/18/2024 01:50:50</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>01/20/2024 06:54:02</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>03/16/2024 03:50:50</publishTime>
+    </File>
+    <File Include="runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll">
+      <publishTime>10/28/2024 20:43:52</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 02:56:36</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/comerr64.dll">
+      <publishTime>03/18/2024 01:29:08</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/gssapi64.dll">
+      <publishTime>03/18/2024 01:29:08</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/k5sprt64.dll">
+      <publishTime>03/18/2024 01:29:08</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/krb5_64.dll">
+      <publishTime>03/18/2024 01:29:08</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/krbcc64.dll">
+      <publishTime>03/18/2024 01:29:08</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 02:54:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 02:54:20</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 02:54:30</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 04:01:34</publishTime>
+    </File>
+    <File Include="Serilog.AspNetCore.dll">
+      <publishTime>12/08/2024 18:38:40</publishTime>
+    </File>
+    <File Include="Serilog.dll">
+      <publishTime>12/05/2024 22:11:50</publishTime>
+    </File>
+    <File Include="Serilog.Extensions.Hosting.dll">
+      <publishTime>12/08/2024 18:31:56</publishTime>
+    </File>
+    <File Include="Serilog.Extensions.Logging.dll">
+      <publishTime>12/08/2024 18:18:48</publishTime>
+    </File>
+    <File Include="Serilog.Formatting.Compact.dll">
+      <publishTime>06/09/2024 16:17:52</publishTime>
+    </File>
+    <File Include="Serilog.Settings.Configuration.dll">
+      <publishTime>12/08/2024 18:16:38</publishTime>
+    </File>
+    <File Include="Serilog.Sinks.Console.dll">
+      <publishTime>06/09/2024 16:13:26</publishTime>
+    </File>
+    <File Include="Serilog.Sinks.Debug.dll">
+      <publishTime>06/14/2024 02:12:04</publishTime>
+    </File>
+    <File Include="Serilog.Sinks.File.dll">
+      <publishTime>06/22/2024 16:44:08</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>05/21/2024 10:42:50</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>05/21/2024 10:42:58</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>05/21/2024 10:42:50</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/20/2017 12:09:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>10/28/2024 20:47:28</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>09/18/2018 13:38:14</publishTime>
+    </File>
+    <File Include="System.IO.Pipelines.dll">
+      <publishTime>10/28/2024 20:46:24</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 04:01:34</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>11/15/2019 02:56:44</publishTime>
+    </File>
+    <File Include="System.Text.Encodings.Web.dll">
+      <publishTime>10/28/2024 20:40:24</publishTime>
+    </File>
+    <File Include="System.Text.Json.dll">
+      <publishTime>10/28/2024 20:47:12</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 02:56:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/11/2025 21:58:11</publishTime>
+    </File>
+    <File Include="ZstdSharp.dll">
+      <publishTime>04/06/2023 06:25:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
