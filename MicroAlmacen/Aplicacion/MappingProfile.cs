@@ -8,6 +8,8 @@ namespace MicroAlmacen.Aplicacion
         public MappingProfile()
         {
             CreateMap<Almacen, AlmacenDto>();
+
+            CreateMap<Pedido, PedidosDto>();
         }
     }
 }

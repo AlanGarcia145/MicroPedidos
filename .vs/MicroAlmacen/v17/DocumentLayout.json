@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\MicroAlmacen\\",
+  "WorkspaceRootPath": "E:\\.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|c:\\users\\angel\\source\\repos\\microalmacen\\microalmacen\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|solutionrelative:microalmacen\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|e:\\.net\\microalmacen\\modelo\\pedidosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|solutionrelative:microalmacen\\modelo\\pedidosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|e:\\.net\\microalmacen\\aplicacion\\obtenerpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|solutionrelative:microalmacen\\aplicacion\\obtenerpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|e:\\.net\\microalmacen\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58584C-392D-45AA-A8DE-DFEA0690F702}|MicroAlmacen\\MicroAlmacen.csproj|solutionrelative:microalmacen\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,17 +33,53 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlmacenController.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MicroAlmacen\\MicroAlmacen\\Controllers\\AlmacenController.cs",
-              "RelativeDocumentMoniker": "MicroAlmacen\\Controllers\\AlmacenController.cs",
-              "ToolTip": "C:\\Users\\angel\\source\\repos\\MicroAlmacen\\MicroAlmacen\\Controllers\\AlmacenController.cs",
-              "RelativeToolTip": "MicroAlmacen\\Controllers\\AlmacenController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "PedidosDto.cs",
+              "DocumentMoniker": "E:\\.net\\MicroAlmacen\\Modelo\\PedidosDto.cs",
+              "RelativeDocumentMoniker": "MicroAlmacen\\Modelo\\PedidosDto.cs",
+              "ToolTip": "E:\\.net\\MicroAlmacen\\Modelo\\PedidosDto.cs",
+              "RelativeToolTip": "MicroAlmacen\\Modelo\\PedidosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:13:08.071Z",
+              "WhenOpened": "2025-03-17T21:38:01.931Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "E:\\.net\\MicroAlmacen\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "MicroAlmacen\\Controllers\\PedidosController.cs",
+              "ToolTip": "E:\\.net\\MicroAlmacen\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "MicroAlmacen\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:51:26.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObtenerPedidos.cs",
+              "DocumentMoniker": "E:\\.net\\MicroAlmacen\\Aplicacion\\ObtenerPedidos.cs",
+              "RelativeDocumentMoniker": "MicroAlmacen\\Aplicacion\\ObtenerPedidos.cs",
+              "ToolTip": "E:\\.net\\MicroAlmacen\\Aplicacion\\ObtenerPedidos.cs",
+              "RelativeToolTip": "MicroAlmacen\\Aplicacion\\ObtenerPedidos.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:21:14.528Z"
             }
           ]
         }

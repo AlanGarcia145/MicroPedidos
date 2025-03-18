@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroAlmacen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+961ba490554e8724f48edbc4d0d5b950c50f4b44")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroAlmacen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroAlmacen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
